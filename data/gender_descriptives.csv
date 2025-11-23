@@ -1,0 +1,13 @@
+Variable,Male_Mean,Male_SD,Female_Mean,Female_SD,Difference
+Depression,0.88,0.65,1.0,0.67,0.12
+Anxiety,0.64,0.59,0.76,0.6,0.11
+Stress,0.95,0.66,1.1,0.66,0.15
+Shame,3.33,0.54,3.39,0.55,0.05
+Guilt,3.14,0.56,3.13,0.55,-0.01
+SelfCompassion,2.1,1.0,2.31,1.08,0.2
+SocialMediaAddiction,2.66,0.92,2.73,0.92,0.08
+FamilySupport,5.03,1.62,5.07,1.72,0.03
+FriendSupport,4.96,1.52,5.04,1.69,0.08
+CyberVictimization,1.25,0.45,1.14,0.3,-0.1
+SocialMediaTime,2.74,0.98,2.86,1.01,0.11
+Age,32.11,11.55,31.05,8.55,-1.06

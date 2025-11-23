@@ -1,0 +1,13 @@
+Variable,U,p,Sig,r
+Depression,83694.0,0.0066,**,0.08
+Anxiety,82820.0,0.0033,**,0.09
+Stress,81222.0,0.0009,***,0.1
+Shame,86478.0,0.0421,*,0.06
+Guilt,95335.0,0.8527,,0.01
+SelfCompassion,84104.0,0.0091,**,0.08
+SocialMediaAddiction,90086.0,0.2621,,0.04
+FamilySupport,91741.0,0.4767,,0.02
+FriendSupport,89348.0,0.191,,0.04
+CyberVictimization,102118.0,0.0359,*,0.07
+SocialMediaTime,88846.0,0.1336,,0.05
+Age,94138.0,0.9102,,0.0
