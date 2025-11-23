@@ -1,0 +1,188 @@
+Model info:
+
+Variable:
+GROUP VARIABLE: GENDER (Erkek,Kadýn).
+KONTROL DEÐÝÞKENÝ: AGE
+Psychological disstress indicators: 
+Depresyon, Anksiyete ve Stres Ölçeði
+DAS1	DAS2	DAS3	DAS4	DAS5	DAS6	DAS7	DAS8	DAS9	DAS10	DAS11	DAS12 DAS13	DAS14	DAS15	DAS16	DAS17	DAS18	DAS19	DAS20	DAS21
+Depresyon: 3,5,10,13,16,17,21.
+Sarý: Anxiyete: 2,4,7,9,15,19,20.
+Beyaz: Stres:1,6,8,11,12,14,18.
+Self compession scale:
+GS1	GS2	GS3	GS4	GS5	GS6	GS7	GS8	GS9	GS10
+Bergen Sosyal Medya Baðýmlýlýðý Ölçeði:
+BERGEN1	BERGEN2	BERGEN3	BERGEN4	BERGEN5	BERGEN6
+SOSYAL DESTEK ÖLÇEÐÝ:
+SOS1	SOS2	SOS3	SOS4	SOS5	SOS6	SOS7	SOS8
+Aile:1,2,3,4.
+Arkadaþ:5,6,7,8.
+Shame and guilt scale:
+SC1	SC2	SC3	SC4	SC5	SC6	SC7	SC8	SC9	SC10	SC11
+Shame:: 1,3,5,7,9
+Suçluluk: 2,4,6,8,10.
+CYBER VICTIMIZATION: 
+CW1	CW2	CW3	CW4	CW5	CW6	CW7	CW8	CW9	CW10
+ORTALAMA KAÇ SAAT SOSYAL MEDYA KULLANMA: TÝMESOCÝAL
+1 saatten az:1
+1-2 saat arasý:2
+3-4 saat arasý:3
+5-6 saat arasý:4
+6 saatten fazla:5.
+SOSYAL MEDYA ETKÝLEÞÝM TÜRLERÝ:
+1'den 5'e kadar (1: Hiçbir zaman, 2: Nadiren, 3: Bazen, 4: Sýklýkla, 5: Her zaman)
+Pasif Kullaným
+Aktif Paylaþým
+Ýçerik Oluþturma
+Ýçerik Tüketimi.
+
+
+Method
+Research Design
+This research was conducted using a cross-sectional survey design from quantitative research methods. The network psychometry approach was adopted in the study, and relationships among variables were examined through network analysis. This design allows for the examination of complex interrelationships among multiple variables simultaneously and provides insights into the dynamic structure of psychological constructs.
+Participants
+The study included Turkish women participants. The inclusion criteria specified female gender and Turkish nationality. Demographic information including age was collected as control variables to examine potential confounding effects.
+Variables
+The variables used in the research are as follows:
+Independent Variables:
+* Cybervictimization (CV): Measured using 10 items assessing various forms of online victimization experiences
+* Shame: Measured using 5 items (items 1, 3, 5, 7, 9 from the Shame and Guilt Scale)
+* Guilt: Measured using 5 items (items 2, 4, 6, 8, 10 from the Shame and Guilt Scale)
+* Self-Compassion (SC): Measured using 10 items from the Self-Compassion Scale
+* Social Media Addiction (SMA): Measured using the 6-item Bergen Social Media Addiction Scale
+* Family Social Support: Measured using 4 items (items 1-4 from the Social Support Scale)
+* Friend Social Support: Measured using 4 items (items 5-8 from the Social Support Scale)
+* Social Media Usage Time: Categorical variable (1: Less than 1 hour, 2: 1-2 hours, 3: 3-4 hours, 4: 5-6 hours, 5: More than 6 hours)
+* Social Media Interaction Types: Measured on a 5-point scale (1: Never, 2: Rarely, 3: Sometimes, 4: Often, 5: Always) including: 
+o Passive Use
+o Active Sharing
+o Content Creation
+o Content Consumption
+Dependent Variables:
+* Depression: DASS-21 subscale (7 items: 3, 5, 10, 13, 16, 17, 21)
+* Anxiety: DASS-21 subscale (7 items: 2, 4, 7, 9, 15, 19, 20)
+* Stress: DASS-21 subscale (7 items: 1, 6, 8, 11, 12, 14, 18)
+Control Variables:
+* Age (continuous variable)
+* Gender (categorical variable: Male, Female) - used for group comparisons
+Measures
+Depression, Anxiety and Stress Scale-21 (DASS-21). The DASS-21 was used to measure psychological distress levels. The scale consists of 21 items and has three subscales (depression, anxiety, stress), with each subscale containing 7 items. Items are rated on a 4-point Likert scale ranging from 0 (did not apply to me at all) to 3 (applied to me very much or most of the time).
+Self-Compassion Scale. The 10-item Self-Compassion Scale was used to measure participants' self-compassion levels. The scale assesses the capacity to be kind, understanding, and non-judgmental toward oneself during difficult times.
+Bergen Social Media Addiction Scale. The 6-item Bergen Social Media Addiction Scale was used to evaluate social media addiction levels. The scale measures problematic social media use patterns including mood modification, tolerance, withdrawal, conflict, and relapse.
+Social Support Scale. The 8-item Social Support Scale was used to measure family (4 items) and friend (4 items) social support. The scale assesses perceived availability and adequacy of social support from different sources.
+Shame and Guilt Scale. The 11-item Shame and Guilt Scale was used to evaluate shame (5 items) and guilt (5 items) levels. The scale distinguishes between these two self-conscious emotions and their respective impacts on psychological well-being.
+Cybervictimization Scale. The 10-item Cybervictimization Scale was used to measure cybervictimization experiences. The scale assesses various forms of online victimization including harassment, exclusion, and threatening behaviors.
+Social Media Usage Form. Information about social media usage time and interaction types (passive use, active sharing, content creation, content consumption) was collected using a custom-developed form.
+Data Analysis
+The data analysis process utilized the R programming language and related packages. Analyses were conducted following the steps outlined below, adhering to established network psychometry procedures.
+Analysis Plan
+Phase 1: Preliminary Analyses and Data Preparation
+Step 1.1: Data Cleaning and Quality Control
+* Missing Data Analysis: Examination of missing data patterns using multiple imputation techniques if necessary
+* Outlier Detection: Identification and examination of univariate and multivariate outliers using standardized z-scores and Mahalanobis distance
+* Normality Assessment: Testing normality assumptions using Shapiro-Wilk tests and visual inspection of Q-Q plots
+* Multicollinearity Check: Assessment of multicollinearity using variance inflation factors (VIF) and tolerance statistics
+Step 1.2: Descriptive Statistics
+* Variable Summaries: Calculation of means, standard deviations, minimum, maximum, skewness, and kurtosis values for all continuous variables
+* Group Comparisons: Comparative descriptive statistics by gender groups using independent samples t-tests
+* Correlation Matrix: Construction of Pearson correlation matrix among all study variables
+* Scale Reliability: Calculation of Cronbach's alpha coefficients for all scales
+Phase 2: Network Analysis Preparation
+Step 2.1: Variable Selection and Node Determination
+* Subscale Score Calculation: Computation of total scores for DASS-21 subscales (depression, anxiety, stress)
+* Node Selection: Determination of nodes to be included in network analysis based on theoretical considerations and statistical criteria
+* Composite Score Creation: Calculation of composite scores for social media interaction types if factor analysis supports this approach
+* Data Transformation: Application of appropriate transformations to achieve better distributional properties if needed
+Step 2.2: Network Data Matrix Construction
+* Data Format Conversion: Transformation of data into appropriate format for network analysis
+* Correlation Matrix Preparation: Preparation of correlation matrix between nodes for network estimation
+* Network Size Optimization: Determination of optimal network size to balance interpretability and comprehensiveness
+Phase 3: Network Model Estimation
+Step 3.1: Gaussian Graphical Model (GGM) Estimation
+* Regularized Partial Correlation Network: Estimation of regularized partial correlation network using the qgraph package
+* LASSO Regularization: Implementation of LASSO regularization to create sparse networks and avoid spurious connections
+* Edge Weight Determination: Calculation and interpretation of edge weights representing partial correlations
+* Network Sparsity Control: Optimization of network sparsity to achieve meaningful and interpretable structure
+Step 3.2: Model Selection and Validation
+* Cross-Validation: Selection of optimal regularization parameter using k-fold cross-validation procedures
+* Model Stability Assessment: Evaluation of model stability using bootstrap procedures
+* Confidence Intervals: Calculation of confidence intervals for edge weights using bootstrap methods
+* Network Accuracy: Assessment of network accuracy using established metrics and comparison with alternative approaches
+Phase 4: Network Structure Examination
+Step 4.1: Centrality Analyses
+* Degree Centrality: Calculation of degree centrality (number of direct connections) for each node
+* Betweenness Centrality: Computation of betweenness centrality (extent to which a node lies on paths between other nodes)
+* Closeness Centrality: Assessment of closeness centrality (inverse of sum of shortest distances to all other nodes)
+* Strength Centrality: Calculation of strength centrality (sum of absolute edge weights connected to a node)
+* Centrality Visualization: Creation of centrality plots to identify most central nodes in the network
+Step 4.2: Centrality Stability Analysis
+* Case-Dropping Bootstrap: Testing centrality stability using case-dropping bootstrap procedures
+* Stability Coefficients: Calculation of stability coefficients to assess reliability of centrality metrics
+* Centrality Difference Tests: Evaluation of significance of differences between centrality measures
+* Confidence Intervals for Centrality: Construction of confidence intervals for centrality measures
+Phase 5: Community Structure Analysis
+Step 5.1: Community Detection
+* Walktrap Algorithm: Application of walktrap algorithm for community detection based on random walks
+* Louvain Algorithm: Implementation of Louvain algorithm as alternative community detection method
+* Modularity Scores: Calculation of modularity scores to assess quality of community partitions
+* Community Stability: Assessment of community structure stability across different parameters
+Step 5.2: Community Structure Interpretation
+* Theoretical Consistency: Evaluation of detected communities' consistency with theoretical expectations
+* Bridge Node Identification: Identification of bridge nodes connecting different communities
+* Community Visualization: Creation of network visualizations highlighting community structures
+* Functional Interpretation: Interpretation of communities in terms of psychological constructs and processes
+Phase 6: Predictability Analysis
+Step 6.1: Node Predictability Assessment
+* Individual Node Predictability: Calculation of predictability levels for each node by its neighboring nodes
+* Psychological Distress Predictability: Specific focus on predictability analysis of psychological distress nodes (depression, anxiety, stress)
+* Predictability Variance: Examination of variance in predictability across different types of nodes
+* Clinical Implications: Interpretation of predictability results for clinical and theoretical understanding
+Step 6.2: Predictability Stability Testing
+* Bootstrap Predictability: Testing stability of predictability estimates using bootstrap methods
+* Confidence Intervals: Construction of confidence intervals for predictability estimates
+* Comparative Analysis: Comparison of predictability levels across different node categories
+* Robustness Assessment: Assessment of robustness of predictability findings
+Phase 7: Gender Group Comparisons
+Step 7.1: Gender-Specific Network Models
+* Separate Network Estimation: Estimation of separate network models for male and female groups
+* Within-Group Analyses: Conduct of centrality and community structure analyses within each gender group
+* Group-Specific Patterns: Identification of gender-specific network patterns and structures
+* Comparative Visualization: Creation of side-by-side network visualizations for gender groups
+Step 7.2: Network Comparison Testing
+* Network Comparison Test (NCT): Implementation of Network Comparison Test to examine between-group differences
+* Edge Weight Comparisons: Testing differences in edge weights between gender groups
+* Centrality Measure Comparisons: Comparison of centrality measures across gender groups
+* Statistical Significance: Assessment of statistical significance of observed group differences
+* Effect Size Estimation: Calculation of effect sizes for meaningful group differences
+Phase 8: Visualization and Reporting
+Step 8.1: Network Visualization
+* Primary Network Plot: Creation of main network visualization using qgraph package with optimal layout
+* Node Size Scaling: Adjustment of node sizes based on centrality values for enhanced interpretation
+* Edge Thickness Scaling: Scaling of edge thickness according to relationship strength
+* Color Coding: Implementation of color schemes to represent community structures and node types
+* Publication-Ready Figures: Creation of high-quality figures suitable for publication
+Step 8.2: Results Reporting and Interpretation
+* Central Node Identification: Identification and theoretical interpretation of most central nodes
+* Strongest Edge Description: Description and interpretation of strongest relationships (edges) in the network
+* Community Structure Evaluation: Assessment of community structure consistency with psychological theories
+* Gender Difference Interpretation: Interpretation of significant gender differences in network structure
+* Clinical and Theoretical Implications: Discussion of findings' implications for theory and practice
+Phase 9: Sensitivity Analyses
+Step 9.1: Alternative Regularization Parameters
+* Parameter Range Testing: Estimation of models with different regularization parameters
+* Result Stability Assessment: Evaluation of result stability across different parameter values
+* Sensitivity Quantification: Quantification of sensitivity of key findings to parameter choices
+* Robust Findings Identification: Identification of findings that remain consistent across parameter variations
+Step 9.2: Alternative Network Approaches
+* Mixed Graphical Models (MGM): Implementation of Mixed Graphical Model for handling mixed variable types
+* Alternative Estimation Methods: Testing alternative network estimation methods (e.g., nonparanormal methods)
+* Method Comparison: Comparison of results across different analytical approaches
+* Convergent Validity: Assessment of convergent validity of findings across methods
+Step 9.3: Robustness Checks
+* Subsample Analysis: Testing network stability in random subsamples of the data
+* Alternative Measures: Testing sensitivity to alternative operationalizations of key constructs
+* Outlier Influence: Assessment of outlier influence on network structure
+* Missing Data Sensitivity: Testing sensitivity of results to different missing data handling approaches
+
+
+
